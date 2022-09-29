@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <p id="demo"></p>
+        <script>
+
+      let myArr = [
+        "asf5g5g66 gh5n0rh5e d9d10d0 oo9etyd1c3dfg4 abc999l0j dsf1sf5sd9l0 l0l02Ol0l asf5g5g6O ee8OidXXI0l d9dI0dl0",
+      ];
+      const good = [];
+      const filtered = myArr[0]
+        .replace(/\D+/g, " ")
+        .trim()
+        .split(" ")
+        .map((e) => parseInt(e));
+        console.log(filtered);
+
+        let size = 10;
+       let returnlager = (filtered, num) => {
+        const res = [];
+        for(let i = 0; i <filtered.length; i++){
+            if(filtered[i] < num){
+                continue;
+            };
+            res.push(filtered[i]);
+        };
+        return res;
+        const results = myArr.filter(newFunction);
+
+        function newFunction(myArr)
+        {
+            return good = returnlager(filtered,size);
+
+        }
+       }
+      console.log(returnlager(filtered, size));
+
+
+
+
+
+
+        </script>
+    </body>
+</html>
+</body>
+</html>
